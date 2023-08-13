@@ -19,6 +19,7 @@
       <root url="jar://$PROJECT_DIR$/selenium-java/selenium-remote-driver-4.11.0.jar!/" />
       <root url="jar://$PROJECT_DIR$/selenium-java/selenium-safari-driver-4.11.0.jar!/" />
       <root url="jar://$PROJECT_DIR$/selenium-java/selenium-support-4.11.0.jar!/" />
+      <root url="file://$PROJECT_DIR$/selenium-java/lib" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
@@ -39,5 +40,6 @@
       <root url="jar://$PROJECT_DIR$/selenium-java/selenium-safari-driver-4.11.0-sources.jar!/" />
       <root url="jar://$PROJECT_DIR$/selenium-java/selenium-support-4.11.0-sources.jar!/" />
     </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/selenium-java/lib" recursive="false" />
   </library>
 </component>
