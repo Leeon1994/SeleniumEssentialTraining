@@ -13,6 +13,14 @@ public class SwitchToAlert {
 
         driver.get("https://formy-project.herokuapp.com/switch-window");
 
+        WebElement alertButton = driver.findElement(By.id("alert-button"));
+
+        alertButton.click();
+
+        Alert alert = driver.switchTo().alert();
+
+        alert.accept();
+
         driver.quit();
     }
 }
